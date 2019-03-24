@@ -9,7 +9,6 @@ public interface IUser {
 			int putStatusCode = 200;
 			int deleteStatusCode = 204;
 			
-			
 		    void  get(String uri);
 			void post(String uri);
 			void put(String uri);

@@ -14,34 +14,28 @@ public class Runner {
 	         String putURI = "https://reqres.in/api/users/2";
 	         String deleteURI = "https://reqres.in/api/users/2";
 	         
-			  //@Test
+			  @Test(groups = {"get"})
 	          public void getTest() {
-	        	  
-				  IUser user  = new IUserImp();
-		    	  user.get(getURI);
-		    	  
+						  IUser user  = new IUserImp();
+				    	  user.get(getURI);
 	          }
 	    	  
-			//  @Test
+			  @Test(groups = {"post"})
 	          public void postTest() {
-	        	  
-				  IUser user  = new IUserImp();
-		    	  user.post(postURI);
-		    	  
+						  IUser user  = new IUserImp();
+				    	  user.post(postURI);
 	          }
 	          
-	         // @Test
+	          @Test(groups = {"put"})
 	          public void putTest() {
-	        	  
-	        	  IUser user  = new IUserImp();
-		    	  user.put(putURI);
+			        	  IUser user  = new IUserImp();
+				    	  user.put(putURI);
 	          }
 	          
-	          @Test
+	          @Test(groups = {"delete"})
 	          public void deleteTest() {
-	        	  
-	        	  IUser user  = new IUserImp();
-		    	  user.delete(deleteURI);
+			        	  IUser user  = new IUserImp();
+				    	  user.delete(deleteURI);
 	          }
 			
 }
