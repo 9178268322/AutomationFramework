@@ -2,11 +2,14 @@ package com.IbaseImp;
 
 import static io.restassured.RestAssured.given;
 
+import java.util.Properties;
+
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 
 import com.Ibase.IUser;
 import com.util.UserUtil;
+import com.values.PropertieValues;
 
 import io.restassured.http.ContentType;
 import io.restassured.http.Headers;
@@ -17,6 +20,8 @@ public class IUserImp implements IUser {
 
 				RequestSpecification reqSpeUtil = UserUtil.getRequestSpecificationUtil();
 			
+				 PropertieValues proValue = new PropertieValues();
+				 
 				public void get(String uri) {
 			
 							Response res = reqSpeUtil.get(uri);

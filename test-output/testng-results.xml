@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="4563" started-at="2019-03-24T03:25:47Z" finished-at="2019-03-24T03:25:51Z">
+  <suite name="Suite1" duration-ms="2941" started-at="2019-03-25T05:08:07Z" finished-at="2019-03-25T05:08:10Z">
     <groups>
       <group name="delete">
-        <method signature="Runner.deleteTest()[pri:0, instance:com.test.Runner@39aeed2f]" name="deleteTest" class="com.test.Runner"/>
+        <method signature="Runner.deleteTest()[pri:0, instance:com.test.Runner@457e2f02]" name="deleteTest" class="com.test.Runner"/>
       </group> <!-- delete -->
     </groups>
-    <test name="Test1" duration-ms="4563" started-at="2019-03-24T03:25:47Z" finished-at="2019-03-24T03:25:51Z">
+    <test name="Test1" duration-ms="2941" started-at="2019-03-25T05:08:07Z" finished-at="2019-03-25T05:08:10Z">
       <class name="com.test.Runner">
-        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.test.Runner@39aeed2f]" name="deleteTest" duration-ms="4505" started-at="2019-03-24T03:25:47Z" finished-at="2019-03-24T03:25:51Z">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.test.Runner@457e2f02]" name="deleteTest" duration-ms="2879" started-at="2019-03-25T05:08:07Z" finished-at="2019-03-25T05:08:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTest -->

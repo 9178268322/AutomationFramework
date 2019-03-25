@@ -144,20 +144,8 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;groups&gt;
-      &lt;define name=&quot;group1&quot;&gt;
-        &lt;include name=&quot;get&quot;/&gt;
-      &lt;/define&gt; &lt;!-- group1 --&gt;
-      &lt;define name=&quot;group2&quot;&gt;
-        &lt;include name=&quot;post&quot;/&gt;
-      &lt;/define&gt; &lt;!-- group2 --&gt;
-      &lt;define name=&quot;group3&quot;&gt;
-        &lt;include name=&quot;put&quot;/&gt;
-      &lt;/define&gt; &lt;!-- group3 --&gt;
-      &lt;define name=&quot;group4&quot;&gt;
-        &lt;include name=&quot;delete&quot;/&gt;
-      &lt;/define&gt; &lt;!-- group4 --&gt;
       &lt;run&gt;
-        &lt;include name=&quot;group4&quot;/&gt;
+        &lt;include name=&quot;delete&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
@@ -213,12 +201,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'deleteTest')
 data.setCell(0, 2, 'com.test.Runner')
-data.setCell(0, 3, 4505);
+data.setCell(0, 3, 2879);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->

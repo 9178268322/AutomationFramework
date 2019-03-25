@@ -3,20 +3,8 @@
 <suite name="Suite1">
 	  <test name="Test1">
 	        <groups>
-	                <define name="group1">
-	                		<include name="get"/>
-	                </define>
-	                <define name="group2">
-	                		<include name="post"/>
-	                </define>
-	                <define name="group3">
-	                		<include name="put"/>
-	                </define>
-	                <define name="group4">
-	                		<include name="delete"/>
-	                </define>
 	        		<run>
-	        				<include name="group4"/>
+	        				<include name="delete"/>
 	        		</run>
 	        </groups>
 		    <classes>
